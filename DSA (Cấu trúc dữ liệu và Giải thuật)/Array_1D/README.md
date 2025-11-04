@@ -88,6 +88,31 @@ Bảng so sánh sự khác nhau giữa mảng biến thiên và mảng động
 | **Nhược điểm** | Không linh hoạt, stack nhỏ | Cần quản lý thủ công, dễ rò rỉ bộ nhớ |
 | **Ví dụ khai báo** | `int arr[n];` | `int *arr = malloc(n * sizeof(int));` |
 
+# Các bài tập giải thuật liên quan đến mảng
+Cơ bản:
+ - Tính tổng, tích, hiệu, trung bình  các phần tử trong mảng
+ - Tìm số nhỏ nhất và lớn nhất trong mảng
+ - Tìm số nguyên tố, số chính phương, số hoàn hảo,... trong mảng
+ - Đếm số lần phần tử x có trong mảng
+ - Tìm kiếm phần tử x có trong mảng (phần tử trùng)
+ - Tìm kiếm bằng vị trí
+ - Đảo ngược mảng
+ - Kiểm tra mảng đối xứng
+
+Trung cấp:
+ - Thống kê phần tử trong mảng: Xuất hiện nhiều nhất, ít nhất, 
+ - Sắp xếp mảng bằng các thuật toán sắp xếp khác nhau
+ - Thêm phần tử và sắp xếp
+ - Gộp 2 mảng thành 1 và sắp xếp
+ - Tách 1 mảng thành 2 mảng con theo đặc điểm (chẳn, lẻ,..)
+ - Loại bỏ phần tử bị trùng và sắp xếp
+
+Cao cấp:
+ - Gộp n mảng thành 1 và sắp xếp
+ - Tách 1 mảng thành n mảng con
+ - Tính toán 2 mảng: 2 mảng cộng nhau có cùng kích thước, 2 mảng cộng nhau khác kích thước
+ - Tìm dãy con thỏa điều kiện: có tổng, tích lớn, tổng số chẳn lớn nhất,...
+
 
 
 
