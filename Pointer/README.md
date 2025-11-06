@@ -1,3 +1,8 @@
+file này thể hiện các nội dung sau:
+- Lý thuyết về con trỏ: Định nghĩa, khai báo, các toán tử
+- Hàm trong lập trình C
+- Mối liên hệ giữa hàm và con trỏ
+
 # Lý thuyết cơ bản về con trỏ
 Con trỏ là một biến lưu địa chỉ của một biến nằm ở trong bộ nhớ
 ```
@@ -34,3 +39,24 @@ Tuy nhiên, một ứng dụng quan trọng nhất mà khi chúng ta đã nắm 
   - Truy cập vào địa chỉ của biến gốc
 
 Đây là phần rất phức tạp nhưng khi đã hiểu và nắm rõ được thì cũng sẽ nắm rõ được các bài toán liên quan đến lập trình C
+
+# Hàm trong lập trình C
+Hàm là một khối lệnh được đặt tên và dùng để giải quyết một nhiệm vụ.
+
+Ứng dụng lớn nhất của hàm là tái sử dụng, thay vì phải viết đi viết lại các đoạn code thì ta có thể gọi hàm để rút gọn đoạn code
+```
+<kiểu trả về> ten_ham(<danh sách tham số>) {
+    // thân hàm
+    return <giá trị>; // nếu hàm có kiểu trả về khác void
+}
+```
+```
+int cong(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int tong = cong(2, 3);
+    printf("%d", tong); // 5
+}
+```
