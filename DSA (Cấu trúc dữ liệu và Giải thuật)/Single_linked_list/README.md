@@ -7,7 +7,7 @@ Node đầu tiên là head, node cuối là. Nếu danh sách rỗng thì `head 
 
 Trong C, NULL là con trỏ rỗng, nghĩa là nó không trỏ đến node nào nữa, hoặc là thông báo thất bại.
 
-#Cách lưu trữ dữ liệu
+# Cách lưu trữ dữ liệu
 Khác với Array khi mà các phần tử được lưu trong bộ nhớ theo thứ tự (nằm kế nhau). Linked list được lưu ở những "ô bộ nhớ" bất kì những ô này sẽ được nối với nhau bằng con trỏ. Điều này làm cho linked list dễ mở rộng hơn. Đây cũng là đặc điểm quan trọng nhất của linked list.
 
 # Khi nào dùng single linked list
